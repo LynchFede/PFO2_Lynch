@@ -1,12 +1,12 @@
-# 🏟️ BOMBONERA 360 - Landing Page Institucional (Generación por IA)
+# 🏟️ BOMBONERA SIGLO XXI - Proyecto de Ampliación y Modernización de La Bombonera
 
 ## Descripción del Proyecto
 
 Este repositorio contiene el resultado del trabajo práctico **PF02 - Prompt Engineering**.
 
-El proyecto consiste en el desarrollo de una Landing Page institucional denominada **"BOMBONERA 360"**, generada mediante Inteligencia Artificial utilizando diferentes agentes para comparar los resultados obtenidos a partir de un mismo prompt.
+El proyecto consiste en una Landing Page institucional desarrollada mediante Inteligencia Artificial para presentar una propuesta conceptual inspirada en el proyecto de ampliación y modernización de La Bombonera impulsado por la actual gestión de Boca Juniors.
 
-La propuesta presenta una remodelación conceptual del estadio La Bombonera, enfocada en la ampliación de capacidad, modernización tecnológica, sustentabilidad, innovación y mejora de la experiencia para socios e hinchas.
+La landing busca comunicar los objetivos del proyecto, sus beneficios para socios e hinchas, las mejoras tecnológicas previstas y la visión de futuro para el estadio, manteniendo la identidad histórica del club y su permanencia en el barrio de La Boca.
 
 ---
 
@@ -30,11 +30,7 @@ https://github.com/LynchFede/PFO2_Lynch
 
 https://pfo-2-lynch.vercel.app
 
-El deploy unificado contiene una página principal desde la cual es posible acceder a:
-
-* Prompt utilizado.
-* Landing Page generada por GPT-5.5 (Codex).
-* Landing Page generada por OpenCode Zen.
+El deploy unificado contiene una portada desde la cual es posible acceder al prompt utilizado y a las dos landing pages generadas por distintos agentes de Inteligencia Artificial.
 
 ---
 
@@ -42,29 +38,23 @@ El deploy unificado contiene una página principal desde la cual es posible acce
 
 ## Agente 1
 
-* **Nombre:** Codex (OpenAI)
-* **Modelo:** GPT-5.5
-
-Landing Page generada utilizando el prompt propuesto.
+* Agente: Codex (OpenAI)
+* Modelo: GPT-5.5
 
 ## Agente 2
 
-* **Nombre:** OpenCode Zen
-* **Modelo:** Big Blade
-
-Landing Page generada utilizando exactamente el mismo prompt para realizar la comparación.
+* Agente: OpenCode Zen
+* Modelo: Big Blade
 
 ---
 
 # 📝 Prompt Utilizado
 
-El prompt completo utilizado para generar ambas Landing Pages se encuentra disponible en el archivo:
+El prompt completo utilizado se encuentra en el archivo:
 
-```text
-prompt.txt
-```
+**prompt.txt**
 
-El mismo fue utilizado sin modificaciones para ambos agentes de Inteligencia Artificial.
+El mismo fue utilizado para ambos agentes sin modificaciones.
 
 ---
 
@@ -72,27 +62,13 @@ El mismo fue utilizado sin modificaciones para ambos agentes de Inteligencia Art
 
 ## Portada Unificada
 
-Agregar aquí la captura de la página principal que contiene los tres accesos:
-
-* Prompt Utilizado.
-* Primer Agente.
-* Segundo Agente.
-
 ![Portada Principal](capturas/portada.png)
 
----
-
-## Landing Generada por GPT-5.5 (Codex)
-
-Agregar aquí la captura correspondiente a la Landing Page generada mediante GPT-5.5.
+## Landing Generada por GPT-5.5
 
 ![Landing GPT-5.5](capturas/gpt55.png)
 
----
-
 ## Landing Generada por OpenCode Zen
-
-Agregar aquí la captura correspondiente a la Landing Page generada mediante OpenCode Zen.
 
 ![Landing OpenCode Zen](capturas/opencode.png)
 
@@ -109,42 +85,12 @@ Agregar aquí la captura correspondiente a la Landing Page generada mediante Ope
 
 ---
 
-# 📁 Estructura del Proyecto
-
-```text
-PFO2_Lynch/
-│
-├── index.html
-├── README.md
-├── prompt.txt
-│
-├── PFO2_Lynch_original/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-│
-└── PFO2_Lynch_OpenCode/
-    ├── index.html
-    ├── style.css
-    └── script.js
-```
-
----
-
 # 🎯 Objetivo Académico
 
-Comparar el comportamiento de distintos agentes de Inteligencia Artificial frente a un mismo requerimiento, evaluando diferencias en:
-
-* Diseño visual.
-* Experiencia de usuario.
-* Organización del contenido.
-* Calidad de implementación.
-* Creatividad de la solución propuesta.
+Comparar los resultados obtenidos mediante Ingeniería de Prompts utilizando distintos agentes de Inteligencia Artificial, evaluando diferencias en diseño, estructura, experiencia de usuario y presentación visual a partir de un mismo requerimiento.
 
 ---
 
 # ✅ Conclusión
 
-La realización de este trabajo permitió aplicar conceptos de Ingeniería de Prompts y analizar cómo diferentes agentes de Inteligencia Artificial generan soluciones distintas a partir de una misma especificación funcional.
-
-A través de una página principal unificada se facilita la comparación entre ambas propuestas, permitiendo evaluar similitudes, diferencias y enfoques de diseño implementados por cada herramienta.
+El trabajo permitió analizar cómo distintos agentes de Inteligencia Artificial interpretan una misma consigna y generan soluciones diferentes, manteniendo los objetivos funcionales solicitados y ofreciendo enfoques propios de diseño y desarrollo.
