@@ -17,7 +17,7 @@ https://github.com/LynchFede/PFO2_Lynch
 
 ## Deploy Unificado (Vercel)
 
-https://pf0-2-lynch-r362.vercel.app
+https://pfo-2-lynch.vercel.app
 
 Este enlace dirige a la portada principal del proyecto, desde donde se puede acceder al prompt utilizado y a las dos landing pages generadas por distintos agentes de Inteligencia Artificial.
 
