@@ -26,7 +26,7 @@ https://github.com/LynchFede/PFO2_Lynch
 
 ---
 
-# 🌐 Deploy Unificado - Vercel
+# 🌐 Deploy Unificado (Vercel)
 
 https://pfo-2-lynch.vercel.app
 
@@ -42,37 +42,43 @@ El deploy unificado contiene una portada principal desde la cual se puede accede
 
 ## Agente 1
 
-* **Agente:** Codex / OpenAI
+* **Agente:** Codex (OpenAI)
 * **Modelo:** GPT-5.5
-* **Landing:** https://pfo-2-lynch.vercel.app/PFO2_Lynch_original/index.html
+
+### Landing
+
+https://pfo-2-lynch.vercel.app/PFO2_Lynch_original/index.html
+
+---
 
 ## Agente 2
 
 * **Agente:** OpenCode Zen
 * **Modelo:** Big Pickle
-* **Landing:** https://pfo-2-lynch.vercel.app/PFO2_Lynch_OpenCode/index.html
+
+### Landing
+
+https://pfo-2-lynch.vercel.app/PFO2_Lynch_OpenCode/index.html
 
 ---
 
 # 📝 Prompt Utilizado
 
-El prompt completo utilizado se encuentra disponible en el archivo:
+El prompt completo utilizado para generar ambas Landing Pages se encuentra disponible en el archivo:
 
 **prompt.txt**
 
-El mismo prompt fue utilizado para ambos agentes de Inteligencia Artificial, con el objetivo de comparar los resultados obtenidos a partir de una misma consigna.
+El mismo prompt fue utilizado sin modificaciones para ambos agentes de Inteligencia Artificial con el objetivo de comparar los resultados obtenidos a partir de una misma consigna.
 
 ---
 
 # 📸 Capturas de Pantalla
 
-> GitHub no permite aplicar animaciones CSS o JavaScript dentro del README.
-> Para lograr un efecto de movimiento real se debería subir un archivo `.gif`.
-> En este caso se muestran las capturas ordenadas de cada landing para visualizar el recorrido completo de ambas páginas.
-
----
-
 ## Landing Generada por GPT-5.5
+
+<p align="center">
+  <img src="capturas/gpt55_0.png" width="900">
+</p>
 
 <p align="center">
   <img src="capturas/gpt55_1.png" width="900">
@@ -185,11 +191,12 @@ El mismo prompt fue utilizado para ambos agentes de Inteligencia Artificial, con
 ```text
 PFO2_Lynch/
 │
-├── index.html
 ├── README.md
+├── index.html
 ├── prompt.txt
 │
 ├── capturas/
+│   ├── gpt55_0.png
 │   ├── gpt55_1.png
 │   ├── gpt55_2.png
 │   ├── gpt55_3png.png
@@ -228,24 +235,19 @@ PFO2_Lynch/
 
 # 🎯 Objetivo Académico
 
-Comparar los resultados obtenidos mediante Ingeniería de Prompts utilizando distintos agentes de Inteligencia Artificial.
-
-El trabajo permite observar diferencias en:
+Comparar los resultados obtenidos mediante Ingeniería de Prompts utilizando distintos agentes de Inteligencia Artificial, evaluando diferencias en:
 
 * Diseño visual.
-* Estructura de la información.
 * Experiencia de usuario.
-* Organización del código.
-* Estilo gráfico.
-* Interpretación del prompt.
+* Organización del contenido.
 * Calidad de implementación.
+* Interpretación del prompt.
+* Creatividad de la solución propuesta.
 
 ---
 
 # ✅ Conclusión
 
-La realización de este trabajo permitió aplicar conceptos de Ingeniería de Prompts y comparar cómo diferentes agentes de Inteligencia Artificial interpretan una misma consigna.
+La realización de este trabajo permitió aplicar conceptos de Ingeniería de Prompts y analizar cómo diferentes agentes de Inteligencia Artificial generan soluciones distintas a partir de una misma especificación funcional.
 
-A partir del mismo prompt, cada agente generó una propuesta visual diferente para una landing page institucional sobre el proyecto conceptual de ampliación y modernización de La Bombonera.
-
-El deploy unificado permite acceder de forma clara al prompt utilizado y a ambas versiones generadas, facilitando la comparación entre los resultados.
+A través de una página principal unificada se facilita la comparación entre ambas propuestas, permitiendo evaluar similitudes, diferencias y enfoques de diseño implementados por cada herramienta.
