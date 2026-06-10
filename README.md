@@ -196,7 +196,7 @@ PFO2_Lynch/
 ├── prompt.txt
 │
 ├── capturas/
-│   ├── gpt55_0.png
+
 │   ├── gpt55_1.png
 │   ├── gpt55_2.png
 │   ├── gpt55_3png.png
