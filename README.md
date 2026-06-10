@@ -1,77 +1,109 @@
-# PFO2 - Prompt Engineering
+# PF02 - Prompt Engineering
 
-## Descripción del proyecto
+## Datos del Estudiante
 
-Este proyecto corresponde a la Práctica Formativa Obligatoria 2.
-El objetivo fue aplicar técnicas de Prompt Engineering para generar y comparar dos Landing Pages desarrolladas mediante agentes de inteligencia artificial.
+* Nombre: Federico Lynch
+* Carrera: Tecnicatura en Desarrollo de Software
+* Materia: Front-End II
+* Comisión: _______
+* Año: 2026
 
-La temática elegida fue una propuesta conceptual de ampliación y modernización de La Bombonera, denominada **Bombonera Siglo XXI**, bajo el slogan:
+---
 
-**“La Bombonera no se muda. Crece.”**
+## Descripción del Proyecto
 
-## Estructura del proyecto
+Este trabajo tiene como objetivo comparar los resultados obtenidos mediante Ingeniería de Prompts utilizando distintos agentes de Inteligencia Artificial.
 
-El proyecto inicia con una portada principal que contiene tres accesos:
+Se desarrolló una página principal unificada que permite acceder al prompt utilizado y a las dos landing pages generadas por diferentes agentes.
 
-* **Link 1:** Texto plano del prompt utilizado.
-* **Link 2:** Landing Page generada por el primer agente.
-* **Link 3:** Landing Page generada por el segundo agente.
+---
+
+## Deploy Unificado (Vercel)
+
+https://pf0-2-lynch.vercel.app
+
+---
+
+## Repositorio GitHub
+
+https://github.com/LynchFede/PF02-Prompt-Engineering
+
+---
+
+## Prompt Utilizado
+
+(PEGAR AQUÍ EL PROMPT COMPLETO EXACTO UTILIZADO)
+
+---
 
 ## Agente 1
 
-**Agente utilizado:** Codex (OpenAI)
-**Modelo de lenguaje:** GPT-5.5
+* Agente: Codex (OpenAI)
+* Modelo: GPT-5.5
 
-Este agente generó una Landing Page completa desde cero utilizando el prompt inicial.
+Landing generada a partir del prompt propuesto.
 
-Archivos generados:
-
-* index.html
-* style.css
-* script.js
+---
 
 ## Agente 2
 
-**Agente utilizado:** OpenCode Zen
-**Modelo de lenguaje:** Big Pickle
+* Agente: OpenCode Zen
+* Modelo: Big Blade
 
-Este agente trabajó sobre el proyecto generado previamente, aplicando mejoras visuales y estructurales sobre la Landing Page.
+Landing generada a partir del mismo prompt para realizar la comparación.
 
-Mejoras realizadas:
+---
 
-* Rediseño visual del estadio conceptual.
-* Mejora de paleta de colores.
-* Uso de tipografía Inter.
-* Mejoras en Hero Section.
-* Mejoras en tarjetas, sombras y efectos hover.
-* Mejoras en galería, FAQ, contacto y footer.
-* Animaciones suaves.
-* Ajustes responsive.
-* Mejoras en JavaScript para scroll, reveal y estadísticas.
+## Capturas de Pantalla
 
-## Tecnologías utilizadas
+### Landing Principal
+
+(Insertar captura)
+
+### Landing Generada por GPT-5.5
+
+(Insertar captura)
+
+### Landing Generada por OpenCode Zen
+
+(Insertar captura)
+
+---
+
+## Tecnologías Utilizadas
 
 * HTML5
 * CSS3
-* JavaScript Vanilla
-* Diseño responsive
-* Sin frameworks
-* Sin backend
+* JavaScript
+* GitHub
+* Vercel
 
-## Prompt utilizado
+---
 
-El prompt completo se encuentra en el archivo:
+## Estructura del Proyecto
 
-`prompt.txt`
+```text
+PF02-Prompt-Engineering/
+│
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+│
+├── landing-gpt55/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+│
+└── landing-opencode/
+    ├── index.html
+    ├── style.css
+    └── script.js
+```
 
-## Acceso al proyecto
+---
 
-Abrir el archivo principal:
+## Conclusión
 
-`index.html`
+El proyecto permitió comparar distintos resultados obtenidos a partir de un mismo prompt, analizando diferencias de diseño, estructura y presentación generadas por cada agente de Inteligencia Artificial.
 
-Desde la portada se puede acceder al prompt y a las dos Landing Pages generadas.
-
-## Autor
-
-Federico Lynch
