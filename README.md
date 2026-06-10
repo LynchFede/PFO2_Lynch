@@ -26,7 +26,7 @@ https://pf0-2-lynch-r362.vercel.app
 
 ## Repositorio GitHub
 
-https://github.com/LynchFede/PF02-Prompt-Engineering
+https://github.com/LynchFede/PF02_Lynch
 
 ---
 
