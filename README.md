@@ -2,19 +2,16 @@
 
 ## Datos del Estudiante
 
-* Nombre: Federico Lynch
-* Carrera: Tecnicatura en Desarrollo de Software
-* Materia: Front-End II
-* Comisión: D
-* Año: 2026
+* **Nombre:** Federico Lynch
+* **Carrera:** Tecnicatura en Desarrollo de Software
+* **Materia:** Front-End II
+* **Año:** 2026
 
 ---
 
-## Descripción del Proyecto
+## Repositorio GitHub
 
-Este trabajo tiene como objetivo comparar los resultados obtenidos mediante Ingeniería de Prompts utilizando distintos agentes de Inteligencia Artificial.
-
-Se desarrolló una página principal unificada que permite acceder al prompt utilizado y a las dos landing pages generadas por diferentes agentes.
+https://github.com/LynchFede/PFO2_Lynch
 
 ---
 
@@ -22,51 +19,69 @@ Se desarrolló una página principal unificada que permite acceder al prompt uti
 
 https://pf0-2-lynch-r362.vercel.app
 
+Este enlace dirige a la portada principal del proyecto, desde donde se puede acceder al prompt utilizado y a las dos landing pages generadas por distintos agentes de Inteligencia Artificial.
+
 ---
 
-## Repositorio GitHub
+## Objetivo del Trabajo
 
-https://github.com/LynchFede/PF02_Lynch
+El objetivo de este proyecto es comparar los resultados obtenidos mediante Ingeniería de Prompts utilizando distintos agentes de Inteligencia Artificial, analizando las diferencias de diseño, estructura, experiencia de usuario y presentación visual generadas a partir de un mismo requerimiento.
+
+La página principal unifica el acceso a:
+
+* Prompt utilizado.
+* Landing Page generada por GPT-5.5 (Codex).
+* Landing Page generada por OpenCode Zen.
+
+---
+
+## Agentes Utilizados
+
+### Agente 1
+
+* **Agente:** Codex (OpenAI)
+* **Modelo:** GPT-5.5
+
+Landing Page generada a partir del prompt propuesto.
+
+### Agente 2
+
+* **Agente:** OpenCode Zen
+* **Modelo:** Big Blade
+
+Landing Page generada a partir del mismo prompt para realizar la comparación.
 
 ---
 
 ## Prompt Utilizado
 
-(PEGAR AQUÍ EL PROMPT COMPLETO EXACTO UTILIZADO)
+El prompt completo utilizado para generar ambas landing pages se encuentra en el archivo:
 
----
+**prompt.txt**
 
-## Agente 1
+También puede copiarse aquí si la cátedra lo requiere:
 
-* Agente: Codex (OpenAI)
-* Modelo: GPT-5.5
-
-Landing generada a partir del prompt propuesto.
-
----
-
-## Agente 2
-
-* Agente: OpenCode Zen
-* Modelo: Big Blade
-
-Landing generada a partir del mismo prompt para realizar la comparación.
+[Pegar aquí el prompt completo utilizado]
 
 ---
 
 ## Capturas de Pantalla
 
-### Landing Principal
+### Portada Unificada
 
-(Insertar captura)
+Insertar captura de la página principal que contiene los tres enlaces:
+
+* Prompt utilizado.
+* Landing GPT-5.5.
+* Landing OpenCode Zen.
 
 ### Landing Generada por GPT-5.5
 
-(Insertar captura)
+Insertar captura de pantalla de la landing creada mediante Codex (GPT-5.5).
 
 ### Landing Generada por OpenCode Zen
 
-(Insertar captura)
+Insertar captura de pantalla de la landing creada mediante OpenCode Zen.
 
 ---
 
@@ -74,7 +89,7 @@ Landing generada a partir del mismo prompt para realizar la comparación.
 
 * HTML5
 * CSS3
-* JavaScript
+* JavaScript Vanilla
 * GitHub
 * Vercel
 
@@ -83,27 +98,21 @@ Landing generada a partir del mismo prompt para realizar la comparación.
 ## Estructura del Proyecto
 
 ```text
-PF02-Prompt-Engineering/
+PFO2_Lynch/
 │
 ├── index.html
-├── style.css
-├── script.js
 ├── README.md
+├── prompt.txt
 │
-├── landing-gpt55/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
+├── PFO2_Lynch_original/
+│   └── Landing generada por GPT-5.5
 │
-└── landing-opencode/
-    ├── index.html
-    ├── style.css
-    └── script.js
+└── PFO2_Lynch_OpenCode/
+    └── Landing generada por OpenCode Zen
 ```
 
 ---
 
 ## Conclusión
 
-El proyecto permitió comparar distintos resultados obtenidos a partir de un mismo prompt, analizando diferencias de diseño, estructura y presentación generadas por cada agente de Inteligencia Artificial.
-
+Este trabajo permitió evaluar el comportamiento de distintos agentes de Inteligencia Artificial frente a un mismo prompt, observando diferencias en el diseño visual, organización del contenido, experiencia de usuario y calidad general de las soluciones generadas.
