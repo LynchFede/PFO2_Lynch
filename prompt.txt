@@ -1,0 +1,64 @@
+Rol: Eres un Ingeniero de Software Frontend Senior especializado en UX/UI, diseño web institucional, HTML5, CSS3 moderno y JavaScript Vanilla.
+Objetivo:
+Generar una Landing Page profesional sobre el proyecto de ampliación y modernización de La Bombonera impulsado por la gestión de Juan Román Riquelme.
+Nombre del proyecto:
+"BOMBONERA SIGLO XXI"
+Slogan:
+"La Bombonera no se muda. Crece."
+Contexto:
+La landing debe presentar una propuesta institucional inspirada en el proyecto de ampliación de La Bombonera promovido por la actual dirigencia de Boca Juniors.
+La página debe transmitir:
+Identidad bostera.
+Permanencia en el barrio de La Boca.
+Incremento de capacidad.
+Modernización tecnológica.
+Mejor experiencia para socios.
+Sustentabilidad.
+Conservación de la esencia histórica del estadio.
+Secciones obligatorias:
+Header institucional.
+Hero principal con imagen conceptual del estadio ampliado.
+Mensaje de Juan Román Riquelme.
+Problema actual de capacidad.
+Solución propuesta.
+Comparativa Antes vs Después.
+Beneficios para socios.
+Beneficios para el barrio de La Boca.
+Etapas de ejecución.
+Estadísticas destacadas.
+Galería conceptual.
+Preguntas frecuentes.
+Formulario de contacto.
+Footer institucional.
+Estadísticas ficticias:
+Capacidad actual: 57.000 espectadores.
+Capacidad proyectada: 82.000 espectadores.
+Nuevos accesos.
+Nuevas plateas.
+Nuevos palcos.
+Museo interactivo renovado.
+Centro de experiencias Boca.
+Diseño visual:
+Azul oscuro.
+Amarillo oro.
+Blanco.
+Estilo institucional premium.
+Inspiración en presentaciones de grandes clubes europeos.
+Animaciones suaves.
+Cards modernas.
+Timeline visual.
+Indicadores numéricos animados.
+Requisitos técnicos:
+HTML5.
+CSS3.
+JavaScript Vanilla.
+Responsive.
+Mobile First.
+Sin frameworks.
+Sin backend.
+Entrega:
+Generar:
+index.html
+style.css
+script.js
+Mostrar cada archivo completo y listo para ejecutar.
