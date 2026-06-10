@@ -30,7 +30,11 @@ https://github.com/LynchFede/PFO2_Lynch
 
 https://pfo-2-lynch.vercel.app
 
-El deploy unificado contiene una portada desde la cual es posible acceder al prompt utilizado y a las dos landing pages generadas por distintos agentes de Inteligencia Artificial.
+El deploy unificado contiene una portada desde la cual es posible acceder a:
+
+* Prompt utilizado.
+* Landing Page generada por GPT-5.5 (Codex).
+* Landing Page generada por OpenCode Zen.
 
 ---
 
@@ -38,23 +42,39 @@ El deploy unificado contiene una portada desde la cual es posible acceder al pro
 
 ## Agente 1
 
-* Agente: Codex (OpenAI)
-* Modelo: GPT-5.5
+* **Nombre:** Codex (OpenAI)
+* **Modelo:** GPT-5.5
+
+Landing Page generada utilizando el prompt propuesto.
+
+### Acceso
+
+https://pfo-2-lynch.vercel.app/PFO2_Lynch_original/index.html
+
+---
 
 ## Agente 2
 
-* Agente: OpenCode Zen
-* Modelo: Big Blade
+* **Nombre:** OpenCode Zen
+* **Modelo:** Big Pickle
+
+Landing Page generada utilizando exactamente el mismo prompt para realizar la comparación.
+
+### Acceso
+
+https://pfo-2-lynch.vercel.app/PFO2_Lynch_OpenCode/index.html
 
 ---
 
 # 📝 Prompt Utilizado
 
-El prompt completo utilizado se encuentra en el archivo:
+El prompt completo utilizado para generar ambas Landing Pages se encuentra disponible en el archivo:
 
-**prompt.txt**
+```text
+prompt.txt
+```
 
-El mismo fue utilizado para ambos agentes sin modificaciones.
+El mismo fue utilizado sin modificaciones para ambos agentes de Inteligencia Artificial.
 
 ---
 
@@ -62,15 +82,25 @@ El mismo fue utilizado para ambos agentes sin modificaciones.
 
 ## Portada Unificada
 
-![Portada Principal](capturas/portada.png)
+<p align="center">
+  <img src="capturas/portada.png" width="900">
+</p>
+
+---
 
 ## Landing Generada por GPT-5.5
 
-![Landing GPT-5.5](capturas/gpt55.png)
+<p align="center">
+  <img src="capturas/gpt55.png" width="900">
+</p>
+
+---
 
 ## Landing Generada por OpenCode Zen
 
-![Landing OpenCode Zen](capturas/opencode.png)
+<p align="center">
+  <img src="capturas/opencode.png" width="900">
+</p>
 
 ---
 
@@ -85,12 +115,47 @@ El mismo fue utilizado para ambos agentes sin modificaciones.
 
 ---
 
+# 📁 Estructura del Proyecto
+
+```text
+PFO2_Lynch/
+│
+├── index.html
+├── README.md
+├── prompt.txt
+│
+├── capturas/
+│   ├── portada.png
+│   ├── gpt55.png
+│   └── opencode.png
+│
+├── PFO2_Lynch_original/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+│
+└── PFO2_Lynch_OpenCode/
+    ├── index.html
+    ├── style.css
+    └── script.js
+```
+
+---
+
 # 🎯 Objetivo Académico
 
-Comparar los resultados obtenidos mediante Ingeniería de Prompts utilizando distintos agentes de Inteligencia Artificial, evaluando diferencias en diseño, estructura, experiencia de usuario y presentación visual a partir de un mismo requerimiento.
+Comparar el comportamiento de distintos agentes de Inteligencia Artificial frente a un mismo requerimiento, evaluando diferencias en:
+
+* Diseño visual.
+* Experiencia de usuario.
+* Organización del contenido.
+* Calidad de implementación.
+* Creatividad de la solución propuesta.
 
 ---
 
 # ✅ Conclusión
 
-El trabajo permitió analizar cómo distintos agentes de Inteligencia Artificial interpretan una misma consigna y generan soluciones diferentes, manteniendo los objetivos funcionales solicitados y ofreciendo enfoques propios de diseño y desarrollo.
+La realización de este trabajo permitió aplicar conceptos de Ingeniería de Prompts y analizar cómo diferentes agentes de Inteligencia Artificial generan soluciones distintas a partir de una misma especificación funcional.
+
+A través de una página principal unificada se facilita la comparación entre ambas propuestas, permitiendo evaluar similitudes, diferencias y enfoques de diseño implementados por cada herramienta.
