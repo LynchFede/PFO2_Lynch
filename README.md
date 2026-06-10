@@ -5,7 +5,7 @@
 * Nombre: Federico Lynch
 * Carrera: Tecnicatura en Desarrollo de Software
 * Materia: Front-End II
-* Comisión: _______
+* Comisión: D
 * Año: 2026
 
 ---
