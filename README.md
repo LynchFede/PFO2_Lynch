@@ -1,33 +1,36 @@
-# PF02 - Prompt Engineering
+# 🏟️ BOMBONERA 360 - Landing Page Institucional (Generación por IA)
 
-## Datos del Estudiante
+## Descripción del Proyecto
+
+Este repositorio contiene el resultado del trabajo práctico **PF02 - Prompt Engineering**.
+
+El proyecto consiste en el desarrollo de una Landing Page institucional denominada **"BOMBONERA 360"**, generada mediante Inteligencia Artificial utilizando diferentes agentes para comparar los resultados obtenidos a partir de un mismo prompt.
+
+La propuesta presenta una remodelación conceptual del estadio La Bombonera, enfocada en la ampliación de capacidad, modernización tecnológica, sustentabilidad, innovación y mejora de la experiencia para socios e hinchas.
+
+---
+
+# 👨‍🎓 Datos del Estudiante
 
 * **Nombre:** Federico Lynch
 * **Carrera:** Tecnicatura en Desarrollo de Software
 * **Materia:** Front-End II
+* **Trabajo Práctico:** PF02 - Prompt Engineering
 * **Año:** 2026
 
 ---
 
-## Repositorio GitHub
+# 📂 Repositorio GitHub
 
 https://github.com/LynchFede/PFO2_Lynch
 
 ---
 
-## Deploy Unificado (Vercel)
+# 🌐 Deploy Unificado (Vercel)
 
 https://pfo-2-lynch.vercel.app
 
-Este enlace dirige a la portada principal del proyecto, desde donde se puede acceder al prompt utilizado y a las dos landing pages generadas por distintos agentes de Inteligencia Artificial.
-
----
-
-## Objetivo del Trabajo
-
-El objetivo de este proyecto es comparar los resultados obtenidos mediante Ingeniería de Prompts utilizando distintos agentes de Inteligencia Artificial, analizando las diferencias de diseño, estructura, experiencia de usuario y presentación visual generadas a partir de un mismo requerimiento.
-
-La página principal unifica el acceso a:
+El deploy unificado contiene una página principal desde la cual es posible acceder a:
 
 * Prompt utilizado.
 * Landing Page generada por GPT-5.5 (Codex).
@@ -35,67 +38,78 @@ La página principal unifica el acceso a:
 
 ---
 
-## Agentes Utilizados
+# 🤖 Agentes Utilizados
 
-### Agente 1
+## Agente 1
 
-* **Agente:** Codex (OpenAI)
+* **Nombre:** Codex (OpenAI)
 * **Modelo:** GPT-5.5
 
-Landing Page generada a partir del prompt propuesto.
+Landing Page generada utilizando el prompt propuesto.
 
-### Agente 2
+## Agente 2
 
-* **Agente:** OpenCode Zen
+* **Nombre:** OpenCode Zen
 * **Modelo:** Big Blade
 
-Landing Page generada a partir del mismo prompt para realizar la comparación.
+Landing Page generada utilizando exactamente el mismo prompt para realizar la comparación.
 
 ---
 
-## Prompt Utilizado
+# 📝 Prompt Utilizado
 
-El prompt completo utilizado para generar ambas landing pages se encuentra en el archivo:
+El prompt completo utilizado para generar ambas Landing Pages se encuentra disponible en el archivo:
 
-**prompt.txt**
+```text
+prompt.txt
+```
 
-También puede copiarse aquí si la cátedra lo requiere:
-
-[Pegar aquí el prompt completo utilizado]
-
----
-
-## Capturas de Pantalla
-
-### Portada Unificada
-
-Insertar captura de la página principal que contiene los tres enlaces:
-
-* Prompt utilizado.
-* Landing GPT-5.5.
-* Landing OpenCode Zen.
-
-### Landing Generada por GPT-5.5
-
-Insertar captura de pantalla de la landing creada mediante Codex (GPT-5.5).
-
-### Landing Generada por OpenCode Zen
-
-Insertar captura de pantalla de la landing creada mediante OpenCode Zen.
+El mismo fue utilizado sin modificaciones para ambos agentes de Inteligencia Artificial.
 
 ---
 
-## Tecnologías Utilizadas
+# 📸 Capturas de Pantalla
+
+## Portada Unificada
+
+Agregar aquí la captura de la página principal que contiene los tres accesos:
+
+* Prompt Utilizado.
+* Primer Agente.
+* Segundo Agente.
+
+![Portada Principal](capturas/portada.png)
+
+---
+
+## Landing Generada por GPT-5.5 (Codex)
+
+Agregar aquí la captura correspondiente a la Landing Page generada mediante GPT-5.5.
+
+![Landing GPT-5.5](capturas/gpt55.png)
+
+---
+
+## Landing Generada por OpenCode Zen
+
+Agregar aquí la captura correspondiente a la Landing Page generada mediante OpenCode Zen.
+
+![Landing OpenCode Zen](capturas/opencode.png)
+
+---
+
+# 🛠️ Tecnologías Utilizadas
 
 * HTML5
 * CSS3
 * JavaScript Vanilla
 * GitHub
 * Vercel
+* Inteligencia Artificial Generativa
 
 ---
 
-## Estructura del Proyecto
+# 📁 Estructura del Proyecto
 
 ```text
 PFO2_Lynch/
@@ -105,14 +119,32 @@ PFO2_Lynch/
 ├── prompt.txt
 │
 ├── PFO2_Lynch_original/
-│   └── Landing generada por GPT-5.5
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
 │
 └── PFO2_Lynch_OpenCode/
-    └── Landing generada por OpenCode Zen
+    ├── index.html
+    ├── style.css
+    └── script.js
 ```
 
 ---
 
-## Conclusión
+# 🎯 Objetivo Académico
 
-Este trabajo permitió evaluar el comportamiento de distintos agentes de Inteligencia Artificial frente a un mismo prompt, observando diferencias en el diseño visual, organización del contenido, experiencia de usuario y calidad general de las soluciones generadas.
+Comparar el comportamiento de distintos agentes de Inteligencia Artificial frente a un mismo requerimiento, evaluando diferencias en:
+
+* Diseño visual.
+* Experiencia de usuario.
+* Organización del contenido.
+* Calidad de implementación.
+* Creatividad de la solución propuesta.
+
+---
+
+# ✅ Conclusión
+
+La realización de este trabajo permitió aplicar conceptos de Ingeniería de Prompts y analizar cómo diferentes agentes de Inteligencia Artificial generan soluciones distintas a partir de una misma especificación funcional.
+
+A través de una página principal unificada se facilita la comparación entre ambas propuestas, permitiendo evaluar similitudes, diferencias y enfoques de diseño implementados por cada herramienta.
