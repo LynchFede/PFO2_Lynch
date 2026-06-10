@@ -20,7 +20,7 @@ Se desarrolló una página principal unificada que permite acceder al prompt uti
 
 ## Deploy Unificado (Vercel)
 
-https://pf0-2-lynch.vercel.app
+https://pf0-2-lynch-dyyk.vercel.app
 
 ---
 
