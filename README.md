@@ -4,9 +4,9 @@
 
 Este repositorio contiene el resultado del trabajo práctico **PF02 - Prompt Engineering**.
 
-El proyecto consiste en una Landing Page institucional desarrollada mediante Inteligencia Artificial para presentar una propuesta conceptual inspirada en el proyecto de ampliación y modernización de La Bombonera impulsado por la actual gestión de Boca Juniors.
+El proyecto consiste en el desarrollo de una Landing Page institucional generada mediante Inteligencia Artificial para presentar una propuesta conceptual inspirada en el proyecto de ampliación y modernización de La Bombonera impulsado por la actual gestión de Boca Juniors.
 
-La landing busca comunicar los objetivos del proyecto, sus beneficios para socios e hinchas, las mejoras tecnológicas previstas y la visión de futuro para el estadio, manteniendo la identidad histórica del club y su permanencia en el barrio de La Boca.
+La landing busca comunicar los objetivos del proyecto, los beneficios para socios e hinchas, las mejoras tecnológicas propuestas y la visión de futuro para el estadio, manteniendo la identidad histórica del club y su permanencia en el barrio de La Boca.
 
 ---
 
@@ -75,10 +75,6 @@ El mismo prompt fue utilizado sin modificaciones para ambos agentes de Inteligen
 # 📸 Capturas de Pantalla
 
 ## Landing Generada por GPT-5.5
-
-<p align="center">
-  <img src="capturas/gpt55_0.png" width="900">
-</p>
 
 <p align="center">
   <img src="capturas/gpt55_1.png" width="900">
@@ -196,7 +192,6 @@ PFO2_Lynch/
 ├── prompt.txt
 │
 ├── capturas/
-
 │   ├── gpt55_1.png
 │   ├── gpt55_2.png
 │   ├── gpt55_3png.png
